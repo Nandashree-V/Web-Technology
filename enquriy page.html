@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Enquiry page</title>
+</head>
+
+<body>
+    <form>
+
+        <fieldset>
+            
+            <legend>Fill detaials</legend>
+            <div>
+        <div>
+            <marquee direction="Right" behaviour="alternate">please fill out the details properly</marquee>
+            </div>
+            <div>
+            Name:<input type="text" name="name" placeholder="Please enter the name" autofocus="" required=""
+                maxlength="10">
+            </div>
+            <br />
+            <br />
+            <div>    Email Address: <input type="email" name="name" required="">
+            <br />
+            <br />
+        </div>
+        <div> Address:<textarea name="address"></textarea>
+            <br />
+            <br />
+        </div>
+        <div> country:
+            <select>
+                <option>Please select the country</option>
+                <optgroup label="Asia">
+                    <option value="india">India</option>
+                    <option value="srilanka">Srilanka</option>
+                    <option value="nepal">Nepal</option>
+                </optgroup>
+                <optgroup label="Europe">
+                    <option value="italy">Italy</option>
+                    <option value="greece">Greece</option>
+                </optgroup>
+            </select>
+        </div>
+            <br />
+            <br />
+            <div>
+            Gender:
+            <input type="radio" value="m" name="gender" />Male
+            <input type="radio" value="f" name="gender" />Female
+            <input type="radio" value="o" name="gender" />other
+        </div>
+            <br />
+            <br />
+            <div> Age: <input type="number" name="age" disabled="" />
+        </div>
+            <br />
+            <br />
+            <div> Password:
+            <input type="password" name="password" placeholder="Enter the password" />
+        </div>
+            <br />
+            <br />
+            <div> Recent Photo:
+            <input type="file" name="image" />
+        </div>
+            <br />
+            <br />
+            <div> Hobbies:
+            <input type="checkbox" name="hobbies[]" checked="" />Singing
+            <input type="checkbox" name="hobbies[]" />Dancing
+            <input type="checkbox" name="hobbies[]" />Painting
+            <input type="checkbox" name="hobbies[]" />Cooking
+        </div>
+            <br />
+            <br />
+            <div> Date:<input type="date" name="">
+        </div>
+            <br />
+            <br />
+            <div> Date Time:<input type="datetime-local" name="">
+        </div>
+            <br />
+            <br />
+            <div> Time:<input type="time" name="">
+        </div>
+            <br />
+            <br />
+            <div> Month:<input type="month" name=""></div>
+            <br />
+            <br />
+            <div> Week:<input type="week" name=""></div>
+            <br />
+            <div>  Range: <input type="range" name="" min="0" max="100" value="50"></div>
+            <br />
+            <br />
+            <div>
+            <input type="submit" name="submit" />
+            <input type="reset" name="reset" />
+            </div>
+        </div>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
