@@ -1,0 +1,229 @@
+body {
+   background-color: white;
+   margin: 0;
+   padding: 0;
+}
+
+.head {
+   position: absolute;
+   width: 100%;
+   height: 20%;
+   display: flex;
+   background-color: cornflowerblue;
+
+}
+
+.head img {
+   height: 5rem;
+   width: 5rem;
+   border-radius: 50%;
+   margin-left: 1rem;
+   margin-top: 1%;
+}
+
+.head p {
+   line-height: 20px;
+   position: absolute;
+   text-align: left;
+   margin-left: 7rem;
+   color: white;
+   margin-top: 2%;
+}
+
+.head h3 {
+   color: white;
+   margin-left: 29rem;
+   margin-top: 1rem;
+
+}
+
+.head form {
+   margin-left: 4rem;
+   margin-top: 1%;
+
+}
+
+.options {
+   display: flex;
+   margin-top: 1rem;
+
+}
+
+button {
+   background-color: darkgreen;
+   color: white;
+   margin-left: 50%;
+}
+
+.heading {
+   margin-top: 8rem;
+   position: absolute;
+   color: rgba(0, 0, 255, 1);
+   align-content: center;
+   font-weight: bolder;
+   text-transform: uppercase;
+   margin-left: 30rem;
+
+}
+
+.formpage {
+   margin-top: 8rem;
+   position: absolute;
+   height: 80%;
+   width: 100%;
+   color: black;
+
+
+}
+
+.formpage p {
+   position: relative;
+   padding: 10px;
+   background-color: cornflowerblue;
+   margin-top: 2%;
+   color: white;
+   font-weight: bold;
+
+}
+
+.formpage label {
+   position: relative;
+   justify-content: center;
+   font-weight: bolder;
+   justify-content: space-around;
+   margin-left: 10px;
+}
+
+.formpage select {
+   width: 12rem;
+   height: 2rem;
+   padding: 5px;
+   margin-top: 5px;
+   margin-bottom: 2px;
+   margin-left: 12px;
+
+}
+
+.formpage input {
+   position: relative;
+   margin-top: 3px;
+   padding: 6px;
+   color: black;
+   width: 12rem;
+   margin-left: 20px;
+
+}
+
+.top {
+   display: flex;
+}
+
+#l1 {
+   margin-left: 12px;
+}
+
+#l2 {
+   margin-left: 15%;
+}
+
+#l3 {
+   margin-left: 15%;
+}
+
+#note {
+   color: red;
+   margin-left: 10rem;
+   font-weight: bold;
+}
+
+.details {
+   margin-top: 1%;
+
+}
+
+#fullname input {
+   margin-top: 1%;
+   width: 70rem;
+   padding: 8px;
+
+}
+
+.gender {
+   display: flex;
+   margin-top: 2%;
+   justify-content: space-between;
+   margin-left: 0%;
+
+}
+
+#b0 {
+   margin-left: 0px;
+   display: flex;
+   width: 20%;
+}
+
+.birth {
+   display: flex;
+   margin-top: 2%;
+
+}
+
+#b1 {
+   display: flex;
+   margin-left: 13%;
+
+}
+
+#b2 {
+   display: flex;
+   margin-left: 13%;
+}
+
+#b3 {
+   display: flex;
+   margin-left: 1px;
+}
+
+#b4 {
+   margin-left: 16%;
+}
+.s1{
+   position: relative;
+   display: flex;
+   margin-top: 2%;
+
+}
+#b5{
+   display: flex;
+   margin-left: 2px;
+}
+#b6{
+   display:flex;
+   margin-left: 18%;
+}
+.s1 select{
+   margin-left: 20px;
+}
+.s2{
+   position: relative;
+   display: flex;
+   margin-top: 2%;
+
+}
+#b7{
+   display: flex;
+   margin-left: 2px;
+}
+#b8{
+   display:flex;
+   margin-left: 15%;
+}
+.f1{
+   margin-top: 2%;
+}
+.s3 select{
+   margin-left: 5%;
+}
+.s4{
+   margin-left: 2%;
+}

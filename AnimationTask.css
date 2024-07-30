@@ -1,0 +1,89 @@
+.card1{
+    height: 5rem;
+    width:5rem;
+     margin-bottom:3% ;
+ background-color:darkolivegreen;
+ transition: transform 5s , height 5s, width 5s;
+}
+
+.card1:hover{
+    transform: rotate(360deg);
+} 
+
+
+
+.card2{
+    height: 5rem;
+    width:5rem;
+     margin-bottom:3% ;
+     animation-name: cardTest1;
+     animation-iteration-count: infinite;
+     animation-duration: 5s;
+}
+@keyframes cardTest1{
+    from{
+        
+        background-color: cornflowerblue;
+    }
+
+    to{
+       
+        background-color: chocolate;
+    }
+} 
+
+ .card3{
+    height: 5rem;
+    width:5rem;
+     margin-bottom:3% ;
+     animation-name: cardTest2;
+     animation-iteration-count: infinite;
+     animation-duration: 5s;
+     
+}
+
+@keyframes cardTest2{
+    from{
+        margin-top: 30px;
+        background-color: cornflowerblue;
+    }
+
+    to{
+        margin-left: 25px;
+        background-color: chocolate;
+    }
+} 
+.card4{
+    height: 3rem;
+    width:3rem;
+     margin-bottom:5% ;
+     animation-name: cardAnimation;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+}
+
+@keyframes cardAnimation{
+    0%{background-color: cyan;}
+    25%{background-color: darkorange;}
+    50%{background-color: rgb(255, 127, 127);}
+    75%{background-color: crimson;}
+    100%{background-color: forestgreen;}
+
+}
+.card5{
+    height: 3rem;
+    width:3rem;
+    animation-name: cardAnimation1;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+     margin-top: 2%;
+     
+    
+}
+@keyframes cardAnimation1{
+    0%{margin-left:0rem; margin-top:0rem;background-color:black ;}
+    25%{ margin-left:10rem; margin-top:0rem;background-color: chartreuse;}
+    50%{margin-top:10rem; margin-left: 10rem;background-color: brown;}
+    75%{margin-top:10rem; margin-left: 0rem; background-color: blueviolet;}
+    100%{ margin-top:0rem; margin-left:0rem;background-color: aqua;}
+}
